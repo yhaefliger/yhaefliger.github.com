@@ -1,0 +1,389 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<title> Yann Haefliger :: CV :: Développeur Web </title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<meta name="google-site-verification" content="nScUJbMgt31mV3799pa5dqidilBN4UeS87tX48nl3m4" />
+	
+	<meta name="description" content="Yann Haefliger Développeur Web dans la région de Lausanne, Suisse." />
+	<meta name="keywords" content="web,developper,developpeur,site web,portfolio,cms,eshop,e-commerce,comem,ingénieur,design,ux,suisse,vaud" />
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	
+	<!-- //////// Favicon ////////  -->
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"  />
+	
+	<!-- //////// Css StyleSheets ////////  -->
+	<link href="_layout/style.css"       rel="stylesheet" type="text/css" media="all"   />
+	<link href="_layout/style-print.css" rel="stylesheet" type="text/css" media="print" />
+	
+	<!-- //////// jQuery ////////  -->
+	<script src="_layout/js/jquery-1.4.2.min.js" type="text/javascript"></script>
+	
+	<!-- //////// DD_belatedPNG - Png Fix for IE ////////  -->
+	<!--[if IE 6 ]>
+		<script type="text/javascript" src="_layout/js/DD_belatedPNG_0.0.7a-min.js"></script>
+		<script type="text/javascript">
+			DD_belatedPNG.fix('#header,#content,#footer');
+		</script>
+	<![endif]-->
+	
+	<!-- //////// Cufon Font Replacement ////////  -->
+	<script type="text/javascript" src="_layout/js/cufon/cufon-yui.js"></script>
+	<script type="text/javascript" src="_layout/js/cufon/hattori_hanzo.font.js"></script>
+
+	<!-- //////// Tipsy - custom Tooltips ////////  -->
+	<link rel="stylesheet" type="text/css" href="_layout/js/tipsy/css.tipsy.css" />
+	<script type="text/javascript" src="_layout/js/tipsy/jquery.tipsy.js"></script>
+
+	<!-- //////// PrettyPhoto ////////  -->
+	<link rel="stylesheet" type="text/css" href="_layout/js/prettyphoto/css.prettyPhoto.css" />
+	<script type="text/javascript" src="_layout/js/prettyphoto/jquery.prettyPhoto.js"></script>
+	
+	<!-- //////// Customs JS  ////////  -->	
+	<script type="text/javascript">
+	/* <![CDATA[ */	                                         
+		$(document).ready(function(){
+		
+			// font replacement
+			if ( ! ( $.browser.msie && ($.browser.version == 6) ) )
+			{ 	
+				$("h1#name").css({'font-size':'46px', 'padding-top':'90px' });
+				Cufon.replace('#portfolio h2, h2.cv-section-name, h1#name'); // using cufon with IE6 breaks the layout in some cases
+				
+			}	
+			
+			// tooltips
+			$('.tip').tipsy({gravity: 'e'});	//  apply class .tip to any <a> tag to make it's  title be displayed like a tooltip
+			$('.tip-n').tipsy({gravity: 'n'});
+			
+			// lightbox
+			$("a[rel^='prettyPhoto']").prettyPhoto({
+				theme: 'facebook',
+				hideflash: false, 		// Hides all the flash object on a page, set to TRUE if flash appears over prettyPhoto
+				wmode: 'opaque', 		// Set the flash wmode attribute
+				autoplay: true, 		// Automatically start videos: True/False
+				modal: false 			// If set to true, only the close button will close the window
+			});
+			
+
+		
+		});
+	/* ]]> */			
+	</script> 
+	
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15821464-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+	
+	<noscript>
+		<link href="_layout/nojs.css" rel="stylesheet" type="text/css" media="all" />
+		<div id="nojs">JavaScript ne semble pas activé! Pour bien fonctionner, cette page nécessite JavaScript.</div>
+	</noscript>
+	
+	<div id="wrap">
+	
+		<div id="header">
+			
+			<div id="block-top"></div>
+			
+			<div id="personal-info" class="fixed">
+			
+				<!--<a id="picture-of-you" href="_content/yann_haefliger_320.jpg" title="Yann Haefliger" rel="prettyPhoto">
+					<img src="_content/yann_haefliger_100.jpg" width="100" height="100" alt="" />
+				</a>-->
+				<img src="_content/yann_haefliger.jpg" alt="Yann Haefliger" style="float:left;" />
+				
+				<h1 id="name">Yann Haefliger</h1>
+				<h2 id="what-you-do">Développeur Web / Architecte Web</h2>
+				
+			</div><!-- end #personal-info -->
+					
+			<ul id="nav" class="fixed">
+				<li><a href="index.html" class="active">Curriculum Vitae</a></li>
+				<li>/</li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li>/</li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul><!-- end #nav -->
+
+			<div class="divider"></div>
+			
+		</div><!-- end #header -->
+		
+		<div id="content" class="fixed">
+		<!-- ////////////////////////////////////////////////////////////////////////////////////// -->
+
+			<div id="cv-1">
+			
+				<!-- // PERSONAL DETAILS     ////////////////////////////////////////////////////// -->
+				<div class="cv-section col-1 fixed">
+				
+					<h2 class="cv-section-name">Informations personnelles</h2>
+					
+					<ul class="cv-section-items">
+						
+						<li class="cv-item">
+							<span class="topic">Nom:</span>         
+							Yann Haefliger
+						</li>
+						<li class="cv-item">
+							<span class="topic">Age:</span>
+							25 ans
+						</li>
+						<li class="cv-item">
+							<span class="topic">Status social:</span>
+							Célibataire
+						</li>
+						<li class="cv-item">
+							<span class="topic">Nationalité:</span>
+							Suisse
+						</li>
+						<li class="cv-item">
+							<span class="topic">Adresse:</span>
+							Rue du Nord 10, 1040 Echallens, Suisse
+						</li>
+						<li class="cv-item">
+							<span class="topic">Téléphone:</span>
+							078/605.72.74
+						</li>
+						<li class="cv-item">
+							<span class="topic">Email:</span>
+							<a href="mailto:yhaefliger@gmail.com">yhaefliger@gmail.com</a>
+						</li>
+							
+					</ul><!-- end .cv-section-items -->
+
+				</div><!-- end .cv-section -->
+				
+				<!-- // PROFESIONAL PROFILE  ////////////////////////////////////////////////////// -->
+				<!--<div class="cv-section col-1 fixed">
+				
+					<h2 class="cv-section-name">Profesional Profile</h2>
+					
+					<ul class="cv-section-items">
+					
+						<li class="cv-item">
+							<p>Pellentesque sollicitudin congue diam, et gravida leo posuere at. Nunc fermentum erat at diam convallis
+							 vel porttitor purus congue. Proin blandit, odio ac aliquet fermentum, lectus est dictum nisl, ac elementum
+							 dui ante et ipsum. Nulla congue fermentum dictum.</p>
+							<p>Cum sociis natoque penatibus et magnis dis parturient
+							 montes, nascetur ridiculus mus. Integer ac tristique enim. Nunc fringilla, enim vel accumsan tincidunt,
+							 lacus turpis vestibulum nibh, vel mattis ante diam ut nisl. Sed sit amet mauris justo.</p>
+						</li>
+						
+					</ul><!-- end .cv-section-items -->
+
+				<!--</div><!-- end .cv-section -->
+				<!-- // EDUCATION            ////////////////////////////////////////////////////// -->
+				<div class="cv-section last col-1 fixed">
+				
+					<h2 class="cv-section-name">Formation</h2>
+					
+					<ul class="cv-section-items">
+					
+						<li class="cv-item">
+							<h4>2002</h4>
+							<h2>Collège 3 Sapins - Echallens</h2>
+							
+							<p><strong>Obtention du certificat d'études secondaire section prégymnasiale.</strong></p>
+						</li>
+						<li class="cv-item">
+							<h4>2002 - 2005</h4>
+							<h2>Centre Professionnel du Nord Vaudois - Sainte-Croix</h2>
+							
+							<p><strong>CFC d'informaticien avec maturité professionnelle.</strong></p>
+						</li>
+						<li class="cv-item">
+							<h4>2005 - 2009</h4>
+							<h2>HEIG-VD - Yverdon</h2>
+							
+							<p><strong>Diplôme d'Ingénieur des médias.</strong></p>
+							<p class="item-more">:: Plus d'informations sur cette formation: <a href="http://www.comem.ch/fr/Formation/IngMedia.aspx" target="_blank">http://www.comem.ch/fr/Formation/IngMedia.aspx</a></p>
+						</li>
+						
+					</ul><!-- end .cv-section-items -->
+				
+				</div><!-- end .cv-section -->
+				<!-- // TECHNICAL SKILLS     ////////////////////////////////////////////////////// -->
+				<div class="cv-section col-1 fixed">
+				
+					<h2 class="cv-section-name"> Competences</h2>
+					<div class="col-2-mid float-left">
+					<ul class="cv-section-items">
+						
+						<li class="cv-item item-skill" id="prog-skill"> 
+							<span class="topic-2">Programmation</span>        
+							<span class="topic-sub">PHP/Java/XML(XSLT)</span>    
+							
+						</li>
+						<li class="cv-item item-skill" id="design-skill"> 
+							<span class="topic-2">WebDesign</span>        
+							<span class="topic-sub">(X)HTML/CSS/JavaScript(Mootools,jQuery)</span>    
+							
+						</li>
+						<li class="cv-item item-skill" id="db-skill"> 
+							<span class="topic-2">Bases de données</span>        
+							<span class="topic-sub">Access/SQL(PostgreSQL,MySQL)</span>    
+							
+						</li>
+						
+					</ul><!-- end .cv-section-items -->
+					</div>
+					<div class="col-2-mid float-left">
+					<ul class="cv-section-items">
+						
+						<li class="cv-item item-skill" id="marketing-skill"> 
+							<span class="topic-2">Management/Marketing</span>        
+							<span class="topic-sub">Gestion de Projet/Economie/Marketing</span>    
+							
+						</li>
+						<li class="cv-item item-skill" id="multimedia-skill"> 
+							<span class="topic-2">Multimédia</span>        
+							<span class="topic-sub">Photoshop/Indesign/Illustrator/Vidéo</span>    
+							
+						</li>
+						<li class="cv-item item-skill" id="computer-skill"> 
+							<span class="topic-2">Informatique général</span>        
+							<span class="topic-sub">OS(Mac/Lin/Win)/Dépannage/Réseau</span>    
+							
+						</li>
+					
+					</ul><!-- end .cv-section-items -->
+					</div>
+				</div><!-- end .cv-section -->
+				
+				
+
+			</div><!-- end #cv-1 -->
+				<!-- // WORK EXPERIENCE      ////////////////////////////////////////////////////// -->
+				<div class="cv-section col-1 fixed break">
+				
+					<h2 class="cv-section-name">Experiences Professionnelles</h2>
+					
+					<ul class="cv-section-items">
+					
+						<li class="cv-item">
+							<h4>Août 2008 - Présent</h4>
+							<h2>Travail de diplôme puis Ingénieur de développement</h2>
+							<h3>Smallbiz (Agence WEB), Lausanne</h3>
+							
+								<ul>
+									<li>Développements spécifiques sur l'application e-commerce ShopMachine. Intégration avec divers ERP/CRM, méthodes de paiement,...</li>
+									<li>Support aux utilisateurs.</li>
+									<li>Depuis 2009, architecte de l'application e-commerce chez Smallbiz/SalesConquest. Mise à jour de la version en interne, intégration des nouveaux développements et fonctionnalités sur SVN.</li>
+								</ul>
+							<p class="item-more">:: Plus d'informations sur cette entreprise: <a href="http://www.smallbiz.ch" target="_blank">http://www.smallbiz.ch</a> / <a href="http://www.salesconquest.com" target="_blank">http://www.salesconquest.com</a></p>
+						</li>
+						<li class="cv-item">
+							<h4>2004</h4>
+							<h2>Stages centres informatiques (2 x 6 mois)</h2>
+							<h3>Centre Informatique Département de l’économie/Centre Informatique UNIL</h3>
+							<ul>
+								<li>Support aux utilisateurs.</li>
+								<li>Dépannages/Installations informatique Hardware et Software.</li>
+							</ul>
+							
+						</li>
+						
+					</ul><!-- end .cv-section-items -->
+				
+				</div><!-- end .cv-section -->
+				<div class="cv-section col-1 fixed">
+				
+					<h2 class="cv-section-name">Langues</h2>
+					<ul class="cv-section-items">
+					<li class="cv-item">
+					<div class="col-3 float-left">
+						<div class="center">
+							<p><strong>
+							Français
+							</strong></p>
+							<p>
+							Langue maternelle
+							</p>
+						</div>
+						
+					</div>
+					<div class="col-3 float-left">
+						<div class="center">
+							<p><strong>
+							Anglais
+							</strong></p>
+							<p>
+							Niveau C1
+							</p>
+						</div>
+					</div>
+					<div class="col-3 float-left">
+						<div class="center">
+							<p><strong>
+							Allemand
+							</strong></p>
+							<p>
+							Niveau B2
+							</p>
+						</div>
+					</div>
+					
+					</li>
+					</ul>
+					<div class="border clear">
+						&nbsp;
+					</div>
+				</div><!-- end .cv-section -->
+				<div class="cv-section col-1 fixed">
+				
+					<h2 class="cv-section-name">Vie associative - Centres d'interets</h2>
+					
+					<ul class="cv-section-items">
+						
+						<li class="cv-item"> 
+							Membre de la société de Jeunesse de Fey <span class="sub-info">(Président en 2006 et 2007)</span>
+						</li>
+						<li class="cv-item"> 
+							Veille Technologique / Musique / Tennis							
+						</li>				
+					</ul>
+				
+				</div><!-- end .cv-section -->
+					
+			
+		<!-- ////////////////////////////////////////////////////////////////////////////////////// -->	
+		</div><!-- end #content -->
+		
+		<div id="footer" class="fixed">
+			
+			<div class="divider2"></div>
+			
+			<p id="copyright">&copy; 2010 Yann Haefliger.</p>
+			<a href="#" id="top">&#710; Top</a>
+			
+		</div><!-- end #footer -->
+		
+		<a href="javascript:window.print()" id="print" title="Imprimer CV" class="tip">Imprimer CV</a>
+		<!--<a href="#" id="download" title="Télécharger CV" class="tip">Télécharger CV</a>-->
+	
+	</div><!-- end #wrap -->
+	
+	<script type="text/javascript"> Cufon.now(); </script>
+
+	<!-- analytics code here -->
+
+</body>
+</html>
